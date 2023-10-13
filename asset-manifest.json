@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vishalkatsa/YupReactForm/static/css/main.f043dacc.css",
+    "main.js": "/vishalkatsa/YupReactForm/static/js/main.e85217d7.js",
+    "static/js/787.d3befce1.chunk.js": "/vishalkatsa/YupReactForm/static/js/787.d3befce1.chunk.js",
+    "static/media/mail.jpg": "/vishalkatsa/YupReactForm/static/media/mail.cdd9117f324027f07b0e.jpg",
+    "index.html": "/vishalkatsa/YupReactForm/index.html",
+    "main.f043dacc.css.map": "/vishalkatsa/YupReactForm/static/css/main.f043dacc.css.map",
+    "main.e85217d7.js.map": "/vishalkatsa/YupReactForm/static/js/main.e85217d7.js.map",
+    "787.d3befce1.chunk.js.map": "/vishalkatsa/YupReactForm/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f043dacc.css",
+    "static/js/main.e85217d7.js"
+  ]
+}
