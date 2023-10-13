@@ -131,17 +131,13 @@ export default function Forms(props) {
               <ErrorMessage name="village" />
             </p>
             <div className="w-24 mx-auto">
-              <div className="py-2 px-5 font-semibold text-[15px]  text-white h-9  rounded mt- bg-green-600 cursor-pointer">
-                <button type="submit" />
+              <button
+                type="submit"
+                className="py-2 px-5 font-semibold text-[15px]  text-white h-9  rounded mt- bg-green-600 cursor-pointer"
+              >
                 Submit
-              </div>
+              </button>
             </div>
-            {/* <button
-            onClick={onsubmit}
-            className="py-2 px-10 font-semibold ml-32 mt-6 bg-green-600"
-          >
-            Submit
-          </button> */}
           </Form>
         </Formik>
       </div>
