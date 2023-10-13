@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-image: url(./components/mail.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vk{
+    box-shadow: 10px 10px 1px  150px rgb(0, 0, 0,0.7);
+}
+.wv{
+    width: 50%;
+}
+.fontF{
+  font-family: 'Gabarito', sans-serif;   
+}
+input::placeholder{
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+@media only screen and (max-width: 1000px) {
+    .wv {
+        width: 50%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .wv {
+        width: 60%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .wv {
+        width: 65%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .wv {
+        width: 75%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .wv {
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .wv {
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .wv {
+        width: 100%;
+    }
+  }
