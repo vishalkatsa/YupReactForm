@@ -25,6 +25,7 @@ console.log(props.mapData);
               <th className="px-5 bg-zinc-300"> State </th>
               <th className="px-5 bg-zinc-300"> District </th>
               <th className="px-5 bg-zinc-300"> Village </th>
+              <th className="px-5 bg-zinc-300"> Password </th>
             </tr>
           </thead>
           <tbody>
@@ -43,13 +44,16 @@ console.log(props.mapData);
                   {key.email}
                 </td>
                 <td className="px-5 bg-zinc-100 text-center border-blue-700 border-spacing-2">
-                  {key.state}
+                  {key.state} 
                 </td>
                 <td className="px-5 bg-zinc-100 text-center border-blue-700 border-spacing-2">
                   {key.district}
                 </td>
                 <td className="px-5 bg-zinc-100 text-center border-blue-700 border-spacing-2">
                   {key.village}
+                </td>
+                <td className="px-5 bg-zinc-100 text-center border-blue-700 border-spacing-2">
+                  {key.password}
                 </td>
               </tr>
             ))}
